@@ -10,7 +10,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-@Component
+//@Component
 public class VehicleRepository implements IVehicleRepository {
     private final Map<String, Vehicle> vehicles = new HashMap<>();
 
